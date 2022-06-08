@@ -24,5 +24,5 @@ function makePost(url, token, body){
             "longitude" = lon;
         }
         
-        makePost(url, body);
+        makePost(url, token, body);
     }
